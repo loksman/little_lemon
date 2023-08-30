@@ -7,8 +7,8 @@ import Header from './Header';
 function App() {
   return (
     <>
-    <Header />
     <Nav />
+    <Header />
     <Main />
     <Footer />
     

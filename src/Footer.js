@@ -1,9 +1,11 @@
-import logo from './assets/logo.png';
+import "./Footer.css";
+// import logo from './assets/logo.png';
+import {ReactComponent as ReactLogo} from './Logo.svg'
 function Footer() {
     return(
-        <footer>
-            <div>
-            <img src={logo} alt="Logo" />
+        <footer className="footer-section">
+            <div className="logo">
+            <ReactLogo />
             </div>
             <div>
                 <h3>Doormat Navigation</h3>

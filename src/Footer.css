@@ -1,0 +1,10 @@
+.footer-section{
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content:space-evenly;
+    height: 50vh;
+}
+
+.logo{
+    padding: 20px;
+}
